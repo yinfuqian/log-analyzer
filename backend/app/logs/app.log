@@ -6340,3 +6340,6 @@ UnboundLocalError: cannot access local variable 'data' where it is not associate
 2025-04-08 16:24:52,522 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
 2025-04-08 16:24:54,583 - app - INFO - 获取所有产品信息成功
 2025-04-08 16:25:00,655 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:38:31,548 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-08 18:38:49,759 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:38:49,841 - app - INFO - 获取所有产品信息成功

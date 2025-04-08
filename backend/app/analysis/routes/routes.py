@@ -6,7 +6,6 @@ from openai import OpenAI
 from app.logfile.models.model import QueryRecord  
 from datetime import datetime
 from app import db
-from app.celery_worker import celery
 
 
 # 配置 Flask Blueprint 和日志格式
