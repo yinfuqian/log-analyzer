@@ -6343,3 +6343,4 @@ UnboundLocalError: cannot access local variable 'data' where it is not associate
 2025-04-08 18:38:31,548 - app - INFO - 启动日志：应用已启动并初始化完成
 2025-04-08 18:38:49,759 - app - INFO - 获取所有产品信息成功
 2025-04-08 18:38:49,841 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:42:04,244 - app - INFO - 启动日志：应用已启动并初始化完成
