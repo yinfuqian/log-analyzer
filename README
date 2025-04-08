@@ -1,0 +1,24 @@
+## 效果
+![alt text](image-1.png)
+![alt text](image.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](企业微信截图_17440808623409.png)
+
+## 简单说明
+该系统主要针对于模块的错误日志，结合代码仓库的具体方法文件做解析，给出问题原因和解决办法
+
+## 首次安装
+前端部署
+docker-compose up -d --build
+后端部署
+python3 环境安装省略
+python app.py
+
+## 配置说明
+backend/app/config （按照实际的情况编辑）
+
+## todo
+1、暂时只支持java模块，其他语言的接入后续更新...
+2、存储对接暂时使用本地存储，对象存储后续更新...
+3、并发配置暂未接入，未做并发测试测试...
