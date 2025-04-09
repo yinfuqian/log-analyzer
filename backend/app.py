@@ -1,5 +1,6 @@
-from app import run_app
+from app import create_app
 
-# 直接运行 Flask 应用
+app = create_app()
+
 if __name__ == '__main__':
-    run_app()
+    app.run()

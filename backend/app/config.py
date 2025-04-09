@@ -32,10 +32,6 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     REDIS_URL = 'redis://172.16.20.153:6379'
 
-    # 监听地址和端口
-    SERVER_HOST = '0.0.0.0'
-    SERVER_PORT = 5000
-
     # Git 用户密码（敏感信息建议用环境变量）
     GIT_USER = 'tianxiaofan'
     GIT_PASSWORD = 'PyQdSBvG'

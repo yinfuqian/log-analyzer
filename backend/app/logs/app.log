@@ -6344,3 +6344,230 @@ UnboundLocalError: cannot access local variable 'data' where it is not associate
 2025-04-08 18:38:49,759 - app - INFO - 获取所有产品信息成功
 2025-04-08 18:38:49,841 - app - INFO - 获取所有产品信息成功
 2025-04-08 18:42:04,244 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-08 18:50:59,247 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-08 18:51:31,157 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:51:33,265 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:51:33,339 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:51:37,759 - app - INFO - 获取所有产品信息成功
+2025-04-08 18:51:42,145 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 18:51:42,162 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 18:51:42,162 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}]
+2025-04-08 18:51:42,238 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 18:51:42,246 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 18:51:42,246 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}]
+2025-04-08 19:01:33,701 - app - INFO - Git 仓库地址 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git' 和版本 'v1.14.3-rc49' 创建成功
+2025-04-08 19:01:33,720 - app - INFO - 模块 'yicall-web' 创建成功，ID: 9
+2025-04-08 19:01:33,740 - app - INFO - 模块 '9' 关联分支 '16' 成功
+2025-04-08 19:01:33,758 - app - INFO - 模块 '9' 关联产品 '2' 成功
+2025-04-08 19:01:33,844 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 19:01:33,852 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 19:01:33,855 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-08 19:01:33,855 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-08 19:01:38,410 - app - INFO - 获取所有产品信息成功
+2025-04-08 19:01:40,839 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 19:01:40,846 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 19:01:40,850 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-08 19:01:40,851 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-08 19:01:56,172 - app - DEBUG - 开始处理上传请求
+2025-04-08 19:01:56,274 - app - DEBUG - 表单数据: product_id=2, module_id=9, address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=v1.14.3-rc49
+2025-04-08 19:01:56,277 - app - DEBUG - 从数据库获取产品: call
+2025-04-08 19:01:56,279 - app - DEBUG - 从数据库获取模块: yicall-web
+2025-04-08 19:01:56,279 - app - DEBUG - 查询分支信息: address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=v1.14.3-rc49
+2025-04-08 19:01:56,281 - app - DEBUG - 找到分支: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, v1.14.3-rc49
+2025-04-08 19:01:56,281 - app - DEBUG - 获取的产品名称: call, 模块名称: yicall-web, 分支地址: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, 分支版本: v1.14.3-rc49
+2025-04-08 19:01:56,281 - app - DEBUG - 生成的日志文件名: call-yicall-web-https://code.in.wezhuiyi.com/yicall/yicall-management-system.git-v1.14.3-rc49-20250408.txt
+2025-04-08 19:01:56,281 - app - DEBUG - 开始处理日志文件: 1.13.txt
+2025-04-08 19:01:56,281 - app - DEBUG - 清理后的日志文件名: call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250408.txt
+2025-04-08 19:01:56,281 - app - DEBUG - 开始处理错误日志，去重
+2025-04-08 19:01:56,282 - app - DEBUG - 保存处理后的错误日志文件: call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250408.txt
+2025-04-08 19:01:56,282 - app - DEBUG - 保存处理后的日志文件到路径: /data/upload/call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250408.txt
+2025-04-08 22:10:48,328 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:50,707 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:50,806 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:52,161 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:52,260 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:54,996 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:56,408 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:56,508 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:58,088 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:10:58,187 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:02,985 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:04,253 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:05,523 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:11:05,531 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:11:05,535 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:11:05,536 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:11:16,763 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:16,864 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:18,283 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:19,317 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:19,416 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:20,356 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:23,210 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:11:26,684 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:11:26,690 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:11:26,693 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:11:26,693 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:12:02,246 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:12:02,352 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:12:03,404 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:13:14,810 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:13:16,110 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:13:16,116 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:13:16,119 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:13:16,120 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:13:46,682 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:13:46,783 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:13:47,863 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:13:54,880 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 22:13:54,888 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 22:13:54,892 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-08 22:13:54,892 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-08 22:13:54,991 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-08 22:13:54,998 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-08 22:13:55,002 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-08 22:13:55,002 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-08 22:13:57,408 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:13:57,416 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:13:57,420 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:13:57,420 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:13:57,521 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:13:57,528 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:13:57,531 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:13:57,532 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:13:58,950 - app - INFO - 收到获取产品模块请求，product_id: 3
+2025-04-08 22:13:58,955 - app - INFO - 产品 ID 3 没有关联的模块
+2025-04-08 22:13:59,055 - app - INFO - 收到获取产品模块请求，product_id: 3
+2025-04-08 22:13:59,061 - app - INFO - 产品 ID 3 没有关联的模块
+2025-04-08 22:14:00,201 - app - INFO - 收到获取产品模块请求，product_id: 4
+2025-04-08 22:14:00,205 - app - INFO - 产品 ID 4 没有关联的模块
+2025-04-08 22:14:00,306 - app - INFO - 收到获取产品模块请求，product_id: 4
+2025-04-08 22:14:00,312 - app - INFO - 产品 ID 4 没有关联的模块
+2025-04-08 22:14:01,315 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:14:01,324 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:14:01,328 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:14:01,328 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:14:01,426 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:14:01,434 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:14:01,439 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:14:01,440 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:14:11,014 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:11,114 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:16,548 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:16,647 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:21,134 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:27,618 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:29,442 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:50,822 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:50,921 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:54,082 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:14:58,355 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:14:58,363 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:14:58,367 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:14:58,367 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:14:58,464 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:14:58,472 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:14:58,476 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:14:58,476 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:15:05,994 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:15:06,095 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:15:07,014 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:15:09,561 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:15:09,568 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:15:09,571 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:15:09,571 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:15:09,671 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:15:09,678 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:15:09,682 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:15:09,682 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-08 22:15:49,543 - app - ERROR - 模块名称、Git仓库地址和版本不能为空
+2025-04-08 22:15:55,631 - app - INFO - 获取所有产品信息成功
+2025-04-08 22:15:57,010 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-08 22:15:57,018 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-08 22:15:57,022 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-08 22:15:57,023 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-09 09:24:56,393 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 09:25:47,242 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:25:51,992 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:25:53,873 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-09 09:25:53,887 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-09 09:25:53,891 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-09 09:25:53,891 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-09 09:25:55,226 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:25:55,233 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:25:55,237 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:25:55,237 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-09 09:25:58,531 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:25:58,623 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:25:59,573 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:26:02,122 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:26:02,131 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:26:02,135 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:26:02,135 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-09 09:26:02,221 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:26:02,231 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:26:02,236 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:26:02,236 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}]
+2025-04-09 09:26:22,703 - app - INFO - Git 仓库地址 'v4' 和版本 'test' 创建成功
+2025-04-09 09:26:22,720 - app - INFO - 模块 'yicall-management' 创建成功，ID: 10
+2025-04-09 09:26:22,732 - app - INFO - 模块 '10' 关联分支 '17' 成功
+2025-04-09 09:26:22,745 - app - INFO - 模块 '10' 关联产品 '2' 成功
+2025-04-09 09:26:22,840 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:26:22,846 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:26:22,849 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:26:22,852 - app - INFO - 模块 ID 10 关联分支: {'branch_address': 'v4', 'tag_version': 'test'}
+2025-04-09 09:26:22,852 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}, {'module_id': 10, 'module_name': 'yicall-management', 'branch': {'branch_address': 'v4', 'tag_version': 'test'}}]
+2025-04-09 09:27:29,472 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:27:31,995 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:27:32,003 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:27:32,007 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:27:32,012 - app - INFO - 模块 ID 10 关联分支: {'branch_address': 'v4', 'tag_version': 'test'}
+2025-04-09 09:27:32,012 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}, {'module_id': 10, 'module_name': 'yicall-management', 'branch': {'branch_address': 'v4', 'tag_version': 'test'}}]
+2025-04-09 09:28:16,619 - app - INFO - 获取所有产品信息成功
+2025-04-09 09:28:18,459 - app - INFO - 收到获取产品模块请求，product_id: 1
+2025-04-09 09:28:18,465 - app - INFO - 模块 ID 2 关联分支: {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}
+2025-04-09 09:28:18,468 - app - INFO - 模块 ID 3 关联分支: {'branch_address': '3-2', 'tag_version': '3-2'}
+2025-04-09 09:28:18,468 - app - INFO - 产品 ID 1 的模块数据: [{'module_id': 2, 'module_name': '4', 'branch': {'branch_address': 'fenzhi4', 'tag_version': 'banben4'}}, {'module_id': 3, 'module_name': '3', 'branch': {'branch_address': '3-2', 'tag_version': '3-2'}}]
+2025-04-09 09:28:26,572 - app - INFO - 收到获取产品模块请求，product_id: 2
+2025-04-09 09:28:26,580 - app - INFO - 模块 ID 8 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}
+2025-04-09 09:28:26,585 - app - INFO - 模块 ID 9 关联分支: {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}
+2025-04-09 09:28:26,588 - app - INFO - 模块 ID 10 关联分支: {'branch_address': 'v4', 'tag_version': 'test'}
+2025-04-09 09:28:26,589 - app - INFO - 产品 ID 2 的模块数据: [{'module_id': 8, 'module_name': 'yicall-mangement', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'release/3.0/zhrs'}}, {'module_id': 9, 'module_name': 'yicall-web', 'branch': {'branch_address': 'https://code.in.wezhuiyi.com/yicall/yicall-management-system.git', 'tag_version': 'v1.14.3-rc49'}}, {'module_id': 10, 'module_name': 'yicall-management', 'branch': {'branch_address': 'v4', 'tag_version': 'test'}}]
+2025-04-09 09:30:41,828 - app - DEBUG - 开始处理上传请求
+2025-04-09 09:30:41,831 - app - DEBUG - 表单数据: product_id=2, module_id=8, address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=release/3.0/zhrs
+2025-04-09 09:30:41,834 - app - DEBUG - 从数据库获取产品: call
+2025-04-09 09:30:41,836 - app - DEBUG - 从数据库获取模块: yicall-mangement
+2025-04-09 09:30:41,836 - app - DEBUG - 查询分支信息: address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=release/3.0/zhrs
+2025-04-09 09:30:41,838 - app - DEBUG - 找到分支: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, release/3.0/zhrs
+2025-04-09 09:30:41,838 - app - DEBUG - 获取的产品名称: call, 模块名称: yicall-mangement, 分支地址: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, 分支版本: release/3.0/zhrs
+2025-04-09 09:30:41,838 - app - DEBUG - 生成的日志文件名: call-yicall-mangement-https://code.in.wezhuiyi.com/yicall/yicall-management-system.git-release/3.0/zhrs-20250409.log
+2025-04-09 09:30:41,838 - app - DEBUG - 开始处理日志文件: call-yicall-mangement-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-release_3.0_zhrs-20250407.log
+2025-04-09 09:30:41,838 - app - DEBUG - 清理后的日志文件名: call-yicall-mangement-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-release_3.0_zhrs-20250409.log
+2025-04-09 09:30:41,838 - app - DEBUG - 开始处理错误日志，去重
+2025-04-09 09:30:41,839 - app - DEBUG - 保存处理后的错误日志文件: call-yicall-mangement-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-release_3.0_zhrs-20250409.log
+2025-04-09 09:30:41,839 - app - DEBUG - 保存处理后的日志文件到路径: /data/upload/call-yicall-mangement-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-release_3.0_zhrs-20250409.log
+2025-04-09 09:30:43,147 - app - DEBUG - 开始处理上传请求
+2025-04-09 09:30:43,149 - app - DEBUG - 表单数据: product_id=2, module_id=9, address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=v1.14.3-rc49
+2025-04-09 09:30:43,151 - app - DEBUG - 从数据库获取产品: call
+2025-04-09 09:30:43,153 - app - DEBUG - 从数据库获取模块: yicall-web
+2025-04-09 09:30:43,153 - app - DEBUG - 查询分支信息: address=https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, tag_version=v1.14.3-rc49
+2025-04-09 09:30:43,155 - app - DEBUG - 找到分支: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, v1.14.3-rc49
+2025-04-09 09:30:43,155 - app - DEBUG - 获取的产品名称: call, 模块名称: yicall-web, 分支地址: https://code.in.wezhuiyi.com/yicall/yicall-management-system.git, 分支版本: v1.14.3-rc49
+2025-04-09 09:30:43,155 - app - DEBUG - 生成的日志文件名: call-yicall-web-https://code.in.wezhuiyi.com/yicall/yicall-management-system.git-v1.14.3-rc49-20250409.txt
+2025-04-09 09:30:43,155 - app - DEBUG - 开始处理日志文件: 1.14.txt
+2025-04-09 09:30:43,155 - app - DEBUG - 清理后的日志文件名: call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250409.txt
+2025-04-09 09:30:43,155 - app - DEBUG - 开始处理错误日志，去重
+2025-04-09 09:30:43,156 - app - DEBUG - 保存处理后的错误日志文件: call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250409.txt
+2025-04-09 09:30:43,156 - app - DEBUG - 保存处理后的日志文件到路径: /data/upload/call-yicall-web-https___code.in.wezhuiyi.com_yicall_yicall-management-system.git-v1.14.3-rc49-20250409.txt
+2025-04-09 10:29:50,769 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 10:30:01,660 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:09:59,301 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:10:26,524 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:10:42,340 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:10:42,349 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:10:42,428 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:10:42,456 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:11:27,851 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:13:10,262 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:13:18,991 - app - INFO - 启动日志：应用已启动并初始化完成
+2025-04-09 11:17:43,981 - app - INFO - 启动日志：应用已启动并初始化完成
