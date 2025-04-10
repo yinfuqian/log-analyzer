@@ -9,6 +9,7 @@ migrations
 .DS_Store
 *.log
 node_modules
+logs
 
 .DS_Store
 node_modules
