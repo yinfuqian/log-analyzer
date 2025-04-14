@@ -44,8 +44,8 @@ export LD_LIBRARY_PATH="/usr/local/openssl/lib:$LD_LIBRARY_PATH"
 
 ## 配置说明
 backend/app/config （按照实际的情况编辑）
-
 ## todo
 1、暂时只支持java模块，其他语言的接入后续更新...
 2、存储对接暂时使用本地存储，对象存储后续更新...
 3、并发配置暂未接入，未做并发测试测试...
+4、代码仓库暂时只支持git命令支持的仓库
